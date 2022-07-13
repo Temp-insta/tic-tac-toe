@@ -35,7 +35,7 @@ class Scoreboard extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.all(30),
+          padding: const EdgeInsets.all(32),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
