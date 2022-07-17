@@ -48,11 +48,11 @@ Then Player 1 will make his/her move by playing mark “X” on this board. Then
 
 Then the program will check if Player 1 with “X” wins or Player 2 with “O” wins and that scenario will be follows: (could be vertically, horizontally or diagonally).  
 
-<p align="center"><img src="Images/X_wins_&_O_wins.png" width="400" height="200" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/X_wins_%26_O_wins.png" width="400" height="200" /></p>
 
 If none of the players win, the program will check for draw.
 
-<p align="center"><img src="Images/Draw_Game.png" width="280" height="280" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/Draw_Game.png" width="280" height="280" /></p>
 
 All this decision making is done by using Minimax algorithm.
 
@@ -68,7 +68,7 @@ Its goal is to minimize the maximum loss i.e. minimize the worst case scenario.
 
 To apply this, let's take an example from near the end of a game, where it is my turn. I am X. My goal here, obviously, is to maximize my end game score.
 
-<p align="center"><img src="Images/Minimax_1.png" width="450" height="290" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/Minimax_1.png" width="450" height="290" /></p>
 
 If the top of this image represents the state of the game when it is my turn, then I have some choices to make, there are three places I can play, one of which clearly results in me wining and earning the 10 points. If I don't make that move, O could very easily win. And I don't want O to win, so my goal here, as the first player, should be to pick the maximum scoring move.
 
@@ -76,7 +76,7 @@ If the top of this image represents the state of the game when it is my turn, th
 
 We should assume that O is also playing to win this game, but relative to us, the first player, O wants obviously wants to chose the move that results in the worst score for us, it wants to pick a move that would minimize our ultimate score. Let's look at things from O's perspective, starting with the two other game states from above in which we don't immediately win.
 
-<p align="center"><img src="Images/Minimax_2.png" width="450" height="290" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/Minimax_2.png" width="450" height="290" /></p>
 
 The choice is clear, O would pick any of the moves that result in a score of -10.
 
