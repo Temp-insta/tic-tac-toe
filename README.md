@@ -9,9 +9,11 @@ You can download the apk from the [release](https://github.com/AadrianLeo/Tictac
 
 You can even play it online on web : [web link](https://tictactoe-online-game.netlify.app/)
 
+Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
+
 
 For flutter packages run: pub get  && to run flutter project run : flutter run  or in vscode click on run from the banner and click on run without debugging or start degugging.
 
-#For flutter packages run: pub get  && to run flutter project run : flutter run  or in vscode click on run from the banner and click on run without debugging or start degugging.
+For flutter packages run: pub get  && to run flutter project run : flutter run  or in vscode click on run from the banner and click on run without debugging or start degugging.
 
-# for packages of server go in server directory and run npm i or npm install.
+For packages of server go in server directory and '''sh run npm i or npm install '''.
