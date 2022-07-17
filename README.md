@@ -1,3 +1,5 @@
+Co-authored-by: santosharron <santosharron2906@gmail.com>
+
 # TIC-TAC-TOE-GAME
 
 EE-551 Flutter Project
@@ -34,13 +36,13 @@ b.	If no one can create a straight line with their own mark and all the position
 ### IMPLEMENTATION PLAN:
 The implementation workflow for this project is as follows:
 
-<p align="center"><img src="Images/Python_flowchart.png" width="430" height="400" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/Python_flowchart.png" width="430" height="400" /></p>
 
 In order to visualize the defined game rules and description, the game is shown in Figures below.
 
 First the game will start with empty board.<br/>
 
-<p align="center"><img src="Images/Empty_Board.png" width="280" height="280" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/Empty_Board.png" width="280" height="280" /></p>
 
 Then Player 1 will make his/her move by playing mark “X” on this board. Then Player 2 will make his/her move by playing mark “O” on this board. This will keep on continuing until the board is full of marks.
 
