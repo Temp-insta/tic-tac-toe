@@ -1,4 +1,4 @@
-Co-authored-by: santosharron <santosharron2906@gmail.com>
+Co-authored-by: Santosh Arron <73644573+santosharron@users.noreply.github.com>
 
 # TIC-TAC-TOE-GAME
 
