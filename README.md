@@ -95,7 +95,7 @@ A description for the algorithm, assuming X is the turn taking player:
 
 Let's walk through the algorithm's execution with the full move tree, and algorithmically, how the instant winning move will be picked:
 
-<p align="center"><img src="Images/Minimax_3.png" width="450" height="290" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/Minimax_3.png" width="450" height="290" /></p>
 
 * It's X's turn in state 1. X generates the states 2, 3, and 4 and calls minimax on those states.
 * State 2 pushes the score of +10 to state 1's score list, because the game is in an end state.
@@ -107,7 +107,7 @@ Let's walk through the algorithm's execution with the full move tree, and algori
 
 Let's see what is happening here by looking through the possible move tree:
 
-<p align="center"><img src="Images/Minimax_4.png" width="450" height="290" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ruchawaghulde/TIC-TAC-TOE-GAME/master/Images/Minimax_4.png" width="450" height="290" /></p>
 
 * Given the board state 1 where both players are playing perfectly, and O is the computer player. O choses the move in state 5 and then immediately loses when X wins in state 9.
 * But if O blocks X's win as in state 3, X will obviously block O's potential win as shown in state 7.
