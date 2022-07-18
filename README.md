@@ -126,4 +126,5 @@ Since this is a very complex algorithm, we have a computer to execute this algor
 #For flutter packages run: pub get  && to run flutter project run : flutter run  or in vscode click on run from the banner and click on run without debugging or start degugging.
 
 #For packages of server go in server directory and run npm i or npm install.
->>>>>>> df9eab5fbd34841ac5eab3785e22619c5381e1af
+
+#For packages of server go in server directory and run npm i or npm install.
